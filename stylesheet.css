@@ -1,0 +1,107 @@
+body {
+    width: 400px;
+        margin: 0 auto;
+}
+
+div {
+margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+    height: 70px;
+    width: 100%;
+    line-height: 65px;
+    color: white;
+    background-color:#2d3945;
+}
+
+#hr1 {
+    height: 3px;
+    margin: -0.4em 0;
+    background-color: black;
+}
+
+#hr2 {
+    height: 2px;
+    background-color: black;
+}
+
+p {
+    color: darkgray;
+}
+
+#container {
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+    color:darkgray;
+}
+
+.entry {
+    width: 370px;
+    font-size: 16px;
+}
+
+#entry2 {
+    width: 185px;
+    font-size: 16px;
+}
+
+#container2 {
+  margin: 0 auto;
+  text-align: left;
+}
+
+#extratext {
+    width: 370px;
+    height: 110px;
+}
+
+#signup {
+    color: white;
+    font-size: 24px;
+    background-color: #4ebab3;
+    border: none;
+    width: 370px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+footer {
+    font-style: italic;
+    color:darkgray;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[placeholder] {
+    text-align: left;
+    font-style:italic;
+}
+
+@media only screen and (min-width: 760px) {
+    body {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .entry {
+        width: 500px;
+display: block;
+    }
+    #extratext {
+    width: 500px;
+    height: 200px;
+}
+
+#signup {
+    width: 500px;
+    height: 110px;
+}
+    footer {
+        margin: 0 auto;
+  text-align: left;
+    }
+}
